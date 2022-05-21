@@ -1,0 +1,93 @@
+* {
+  padding: 0.5%;
+}
+body,
+main,
+.container {
+  min-height: 100vh;
+}
+
+.left-column {
+  background-color: rgba(93, 168, 149, 0.349);
+}
+.left-column-title {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  font-size: 20px;
+  font-weight: 900;
+}
+.right-column {
+  background: rgb(253, 251, 251);
+}
+.right-column-title {
+  background-color: rgba(93, 168, 149, 0.349);
+}
+.unrestricted-area {
+  width: 100%;
+}
+.title-clean-area {
+  height: 10px;
+}
+.clean-area {
+  text-align: center;
+  background-color: rgb(252, 220, 220);
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.title-preoperative-care {
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: underline lightgray;
+  font-size: 13px;
+}
+.description-preoperative-care {
+  margin-top: 10px;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.title-dirty-area {
+  text-align: center;
+  background-color: rgb(252, 220, 220);
+  font-weight: lighter;
+  font-size: 15px;
+}
+.img-old-man,
+.img-nurse {
+  width: 100%;
+}
+
+.text-old-man,
+.text-comprise {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.middle-height {
+  height: 50%;
+}
+.text-surgical-support,
+.text-locker-room,
+.text-nurse-room,
+.text-restricted-area,
+.text-presurgical-area,
+.text-surgical-area,
+.text-protection-glasses,
+.text-surgery-gown,
+.text-surgical-mask,
+.text-surgical-clothing {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.title-surgical-support,
+.title-locker-room,
+.title-nurse-room,
+.title-restricted-area,
+.title-presurgical-area,
+.title-surgical-area {
+  text-align: center;
+  background-color: rgb(252, 220, 220);
+  font-weight: lighter;
+  font-size: 15px;
+}
