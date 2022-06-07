@@ -7,87 +7,105 @@ main,
   min-height: 100vh;
 }
 
+
 .left-column {
   background-color: rgba(93, 168, 149, 0.349);
+  border-radius: 10px;
+  font-weight: lighter;
 }
 .left-column-title {
   text-orientation: upright;
   writing-mode: vertical-lr;
   font-size: 20px;
-  font-weight: 900;
 }
 .right-column {
   background: rgb(253, 251, 251);
+  font-weight: lighter;
+  border-radius: 10px;
 }
 .right-column-title {
   background-color: rgba(93, 168, 149, 0.349);
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .unrestricted-area {
   width: 100%;
 }
-.title-clean-area {
-  height: 10px;
-}
+
 .clean-area {
   text-align: center;
   background-color: rgb(252, 220, 220);
   font-weight: lighter;
   font-size: 15px;
+  border-radius: 10px;
+  border-top: 20px;
+}
+.preoperative-care {
+padding-top: 20px;
+padding-bottom: 0px;
 }
 
-.title-preoperative-care {
+.preoperative-care-title {
   font-weight: lighter;
   text-transform: uppercase;
   text-decoration: underline lightgray;
   font-size: 13px;
 }
-.description-preoperative-care {
-  margin-top: 10px;
-  margin-bottom: 2rem;
+.preoperative-care-description {
   font-weight: lighter;
   font-size: 15px;
+
 }
 
-.title-dirty-area {
+.dirty-area-title {
   text-align: center;
   background-color: rgb(252, 220, 220);
   font-weight: lighter;
   font-size: 15px;
+  border-radius: 10px;
 }
 .img-old-man,
-.img-nurse {
+.img-nurse , 
+.image-doctor{
   width: 100%;
 }
 
-.text-old-man,
-.text-comprise {
+.old-man-text,
+.comprise-text {
   font-weight: lighter;
   font-size: 15px;
 }
 .middle-height {
   height: 50%;
 }
-.text-surgical-support,
-.text-locker-room,
-.text-nurse-room,
-.text-restricted-area,
-.text-presurgical-area,
-.text-surgical-area,
-.text-protection-glasses,
-.text-surgery-gown,
-.text-surgical-mask,
-.text-surgical-clothing {
+.surgical-support-text,
+.locker-room-text,
+.nurse-room-text,
+.restricted-area-text,
+.presurgical-area-text,
+.surgical-area-text,
+.protection-glasses-text,
+.surgery-gown-text,
+.surgical-mask-text,
+.surgical-clothing-text {
   font-weight: lighter;
   font-size: 15px;
 }
-.title-surgical-support,
-.title-locker-room,
-.title-nurse-room,
-.title-restricted-area,
-.title-presurgical-area,
-.title-surgical-area {
+.surgical-support-title,
+.locker-room-title,
+.nurse-room-title,
+.restricted-area-title,
+.presurgical-area-title,
+.surgical-area-title {
   text-align: center;
   background-color: rgb(252, 220, 220);
   font-weight: lighter;
   font-size: 15px;
+  border-radius: 5px;
+}
+.nurse-room-title,
+.locker-room-title,
+.surgical-support-title {
+  height: 40px;
 }
